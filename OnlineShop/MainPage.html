@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style type="text/css">
+		body{
+			background-color: white;
+		}
+		.logo{
+			position: absolute;
+			left:0;
+			top:0;
+		}
+		.search{
+			position: absolute;
+			left:10.4%;
+			top:25px;
+			
+		}
+		
+		#enter{
+			text-align: right;
+			color:black;
+		}
+		.enter_or_autentification{
+			word-spacing: 15px;
+			border-width: 2px;
+			border-style: double;
+			border-color:black;
+			white-space: pre;
+			
+			
+			
+		}	
+		.menubar1,.menubar2{
+			white-space: pre;
+			border-width: 2px;
+			border-style: double;
+			border-color:black;
+			
+		}
+		.menbar{
+			position: absolute;
+			top:39px;
+			left:45%;
+			
+		}
+		.mainmenubar{
+			word-spacing: 6px;
+			position: absolute;
+			top:150px;
+			left:38.5%;
+			border-width: 2px;
+			border-style: double;
+			border-color:black;
+			
+		}
+		.mainmenubar1{
+			border-width: 2px;
+			border-style: double;
+			border-color:black;
+			white-space: pre;
+		}
+		a{
+			text-decoration: none;
+			text-transform: uppercase;
+			
+			color:black;
+		
+		}
+		/*Сверху все стили для header */
+		/*Ниже для article */
+		.hits_of_season{
+			position: absolute;
+			top: 25%;
+			left:5%;	
+		}
+		h1.hits_span{
+			font-weight:600;
+			font-size: 30px;
+		}
+		
+	</style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MainPage</title>
+	<link rel="icon" href="3Variant_3.ico">
+</head>
+<body >
+	<header>
+		<div class="logo"><a href="MainPage.html" target="_self"><img src="Logo.jpg" alt="Logotim" width="15%" height="15%" ></a></div> <!--Логотип -->
+		
+		<div id="enter">
+			<form method="post" action="" >
+			<a href="Login.html" target="_self"><span class="enter_or_autentification">  Вход </span></a> <a href="Autentification.html" target="_self"><span class="enter_or_autentification"> Регистрация </span></a>   <!--Поисковая строчка -->
+				
+		
+			</form>
+		</div>
+		<div class="search">
+			<form method="post" action="" >
+				<p class="p1">
+					<input type="search" name="Search" placeholder="Поиск по магазину" >  <!--Вход/выход или аутентификация -->
+		   			<input type="submit" value="Поиск" name="Search">
+				</p>
+			</form>
+		</div>
+		<nav>
+
+				<form method="post" action="" >
+			<div class="menbar"><a href="#" target="_self"><span class="menubar1"> Личный кабинет  </span></a> <a href="Basket.html" target="_self"><span class="menubar2"> Корзина</span></a></div>
+			
+		
+				</form>
+			
+		</nav>	
+		
+		<nav>
+			<form method="post" action="">
+				<div class="mainmenubar"> 
+					<a href="MainPage.html" target="_self"><span class="mainmenubar1	">  Главная  </span></a>
+					<a href="#" target="_self"><span class="mainmenubar1	">  Новинки  </span></a>
+					<a href="#" target="_self"><span class="mainmenubar1	"> Предзаказ  </span></a>
+					<a href="#" target="_self"><span class="mainmenubar1	"> Скидки  </span></a>
+					
+				</div>
+			
+			</form>
+		
+		</nav>
+		
+	</header>
+	
+	<article>
+		<div class="hits_of_season">
+			<section>
+				<h1 class="hits_span">Хиты сезона!</h1>
+			</section>
+		</div>	
+	
+	
+	
+	
+	
+	</article>
+	
+	
+	
+</body>
+</html>	
