@@ -3,7 +3,10 @@
 <head>
 	<style type="text/css">
 		body{
-			background-color: white;
+			background-image: url("bacground-image.jpg");
+			background-repeat: no-repeat;	
+			background-attachment: fixed;
+			
 		}
 		.logo{
 			position: absolute;
@@ -23,9 +26,10 @@
 		}
 		.enter_or_autentification{
 			word-spacing: 15px;
-			border-width: 2px;
+			border-width: 4px;
 			border-style: double;
 			border-color:black;
+			background-color: white;
 			white-space: pre;
 			
 			
@@ -33,9 +37,10 @@
 		}	
 		.menubar1,.menubar2{
 			white-space: pre;
-			border-width: 2px;
+			border-width: 4px;
 			border-style: double;
 			border-color:black;
+			background-color: white;
 			
 		}
 		.menbar{
@@ -49,16 +54,18 @@
 			position: absolute;
 			top:150px;
 			left:38.5%;
-			border-width: 2px;
+			border-width: 4px;
 			border-style: double;
 			border-color:black;
+			background-color: black;
 			
 		}
 		.mainmenubar1{
-			border-width: 2px;
+			border-width: 4px;
 			border-style: double;
 			border-color:black;
 			white-space: pre;
+			background-color: white;
 		}
 		a{
 			text-decoration: none;
@@ -71,12 +78,70 @@
 		/*Ниже для article */
 		.hits_of_season{
 			position: absolute;
-			top: 25%;
+			top: 21%;
 			left:5%;	
+		}
+		.ZagolovokJanr{
+			position: absolute;
+			top:68%;
+			left:6.9%;
+				
+		}
+		.ZagolovokRazdel{
+			position: absolute;
+			top:118%;
+			left:6.9%;
 		}
 		h1.hits_span{
 			font-weight:600;
 			font-size: 30px;
+			color:white;
+			color:white;
+		}
+		h1.ZagolovokJanr1{
+			font-weight:600;
+			font-size: 30px;
+			color:white;
+		}
+		h1.ZagolovokRazdel1{
+			font-weight:600;
+			font-size: 30px;
+		}
+		.janr{  /*Таблица жанров */
+			border-width: 2px;
+			border-style: double;
+			border-color:white;
+			position: absolute;
+			top:75%;
+			left:5%;
+			
+		}
+		.razdel{/*Таблица разделов */
+			border-width: 2px;
+			border-style: double;
+			border-color:white;
+			position: absolute;
+			top:125%;
+			left:5%;
+			
+		}
+		td{/*Выравнивание таблиц */
+			text-align: center;
+			border-color: black;
+			background-color: white;
+			
+		}
+		.menubarofgame{
+			position: absolute;
+			top:73%;
+			left:40.5%;
+			
+		}
+		.footer{
+			position: absolute;
+			top:155%;
+			left:50%;
+			color:white;
 		}
 		
 	</style>
@@ -131,12 +196,66 @@
 	</header>
 	
 	<article>
-		<div class="hits_of_season">
-			<section>
-				<h1 class="hits_span">Хиты сезона!</h1>
+			<section> <!-- Секция с интерктивным, двигающимся меню выбора игр -->
+				<div class="hits_of_season">
+					<h1 class="hits_span">Хиты сезона!</h1>
+				</div>
 			</section>
-		</div>	
-	
+		
+		
+			<section> <!--	Меню выбора жанра -->
+				<div class="ZagolovokJanr"><h1 class="ZagolovokJanr1">Жанр</h1></div>
+				<div class="janr">
+					<table border="2" cellpadding="3px"  bordercolor="white" width="150px">
+						
+					<tr><td><a href="#"> Экшн</a></td></tr>
+					<tr><td><a href="#"> Шутеры</a></td></tr>
+					<tr><td><a href="#"> Приключения</a></td></tr>
+					<tr><td><a href="#"> Ролевые</a></td></tr>
+					<tr><td><a href="#"> Инди</a></td></tr>
+					<tr><td><a href="#"> Симуляторы</a></td></tr>
+					<tr><td><a href="#"> Стратегии</a></td></tr>
+					<tr><td><a href="#"> Аркады</a></td></tr>
+					<tr><td><a href="#"> Спорт и гонки</a></td></tr>
+					<tr><td><a href="#"> Казуальные</a></td></tr>
+					<tr><td><a href="#"> Хоррор</a></td></tr>
+					<tr><td><a href="#"> Выживание</a></td></tr>
+					<tr><td><a href="#"> Открытый мир</a></td></tr>
+					<tr><td><a href="#"> С сюжетом</a></td></tr>
+					</table>
+				</div>
+		
+			
+			</section>
+			<section><!--	Меню выбора раздела -->
+				<div class="ZagolovokRazdel"><h1 class="ZagolovokJanr1">Раздел</h1></div>
+				<div class="razdel">
+					<table  border="2px" cellpadding="3px"  bordercolor="white" width="150px">
+						
+					<tr><td ><a href="#"> Steam</a></td></tr>
+					<tr><td ><a href="#"> Origin</a></td></tr>
+					<tr><td><a href="#"> Uplay</a></td></tr>
+					<tr><td><a href="#"> Battle.net</a></td></tr>
+					<tr><td><a href="#"> XBox</a></td></tr>
+					<tr><td><a href="#"> Playstation</a></td></tr>
+					<tr><td><a href="#"> Mac OS X</a></td></tr>
+					<tr><td><a href="#"> Linux + Steam OS</a></td></tr>
+					
+					</table>
+				</div>
+			</section>
+		
+			     
+			<section> <!--Меню выбора игры -->
+				<div class="menubarofgame">
+					<a href="MainPage.html" target="_self"><span class="mainmenubar1	">  Каталог  </span></a>
+					<a href="#" target="_self"><span class="mainmenubar1	">  Новые  </span></a>
+					<a href="#" target="_self"><span class="mainmenubar1	"> Популярные  </span></a>
+					<a href="#" target="_self"><span class="mainmenubar1	"> Ожидаемые  </span></a>
+				
+				</div>
+		
+			</section>
 	
 	
 	
@@ -144,6 +263,6 @@
 	</article>
 	
 	
-	
+<div class="footer"><footer> Team WOLFAUF</footer></div>
 </body>
 </html>	
