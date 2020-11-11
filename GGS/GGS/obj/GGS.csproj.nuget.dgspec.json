@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Образование(Self)\\GGShop\\GGS\\GGS\\GGS.csproj": {}
+    "C:\\Users\\almaz\\Desktop\\WolfAuf\\GGS\\GGS\\GGS.csproj": {}
   },
   "projects": {
-    "C:\\Образование(Self)\\GGShop\\GGS\\GGS\\GGS.csproj": {
+    "C:\\Users\\almaz\\Desktop\\WolfAuf\\GGS\\GGS\\GGS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Образование(Self)\\GGShop\\GGS\\GGS\\GGS.csproj",
+        "projectUniqueName": "C:\\Users\\almaz\\Desktop\\WolfAuf\\GGS\\GGS\\GGS.csproj",
         "projectName": "GGS",
-        "projectPath": "C:\\Образование(Self)\\GGShop\\GGS\\GGS\\GGS.csproj",
+        "projectPath": "C:\\Users\\almaz\\Desktop\\WolfAuf\\GGS\\GGS\\GGS.csproj",
         "packagesPath": "C:\\Users\\almaz\\.nuget\\packages\\",
-        "outputPath": "C:\\Образование(Self)\\GGShop\\GGS\\GGS\\obj\\",
+        "outputPath": "C:\\Users\\almaz\\Desktop\\WolfAuf\\GGS\\GGS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\almaz\\AppData\\Roaming\\NuGet\\NuGet.Config",

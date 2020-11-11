@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30428.66
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GGS", "GGS\GGS.csproj", "{95CF40FC-CB5D-420E-BDE4-E404872A0BFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GGS.Web", "GGS\GGS.Web.csproj", "{95CF40FC-CB5D-420E-BDE4-E404872A0BFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GGS.Domain", "GGS.Domain\GGS.Domain.csproj", "{5C5D0E0A-ABA5-4A8A-94DD-EE141509F072}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GGS.Data", "GGS.Data\GGS.Data.csproj", "{EECE0044-3320-454B-BA08-1941DBA33169}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{95CF40FC-CB5D-420E-BDE4-E404872A0BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95CF40FC-CB5D-420E-BDE4-E404872A0BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95CF40FC-CB5D-420E-BDE4-E404872A0BFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C5D0E0A-ABA5-4A8A-94DD-EE141509F072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C5D0E0A-ABA5-4A8A-94DD-EE141509F072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C5D0E0A-ABA5-4A8A-94DD-EE141509F072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C5D0E0A-ABA5-4A8A-94DD-EE141509F072}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EECE0044-3320-454B-BA08-1941DBA33169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EECE0044-3320-454B-BA08-1941DBA33169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EECE0044-3320-454B-BA08-1941DBA33169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EECE0044-3320-454B-BA08-1941DBA33169}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

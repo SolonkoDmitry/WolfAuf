@@ -1,0 +1,13 @@
+C:\Users\almaz\Desktop\WolfAuf\GGS\GGS.Data\bin\Debug\net5.0\GGS.Data.deps.json
+C:\Users\almaz\Desktop\WolfAuf\GGS\GGS.Data\bin\Debug\net5.0\GGS.Data.dll
+C:\Users\almaz\Desktop\WolfAuf\GGS\GGS.Data\bin\Debug\net5.0\GGS.Data.pdb
+C:\Users\almaz\Desktop\WolfAuf\GGS\GGS.Data\bin\Debug\net5.0\GGS.Domain.dll
+C:\Users\almaz\Desktop\WolfAuf\GGS\GGS.Data\bin\Debug\net5.0\GGS.Domain.pdb
+C:\Users\almaz\Desktop\WolfAuf\GGS\GGS.Data\obj\Debug\net5.0\GGS.Data.csprojAssemblyReference.cache
+C:\Users\almaz\Desktop\WolfAuf\GGS\GGS.Data\obj\Debug\net5.0\GGS.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\almaz\Desktop\WolfAuf\GGS\GGS.Data\obj\Debug\net5.0\GGS.Data.AssemblyInfoInputs.cache
+C:\Users\almaz\Desktop\WolfAuf\GGS\GGS.Data\obj\Debug\net5.0\GGS.Data.AssemblyInfo.cs
+C:\Users\almaz\Desktop\WolfAuf\GGS\GGS.Data\obj\Debug\net5.0\GGS.Data.csproj.CoreCompileInputs.cache
+C:\Users\almaz\Desktop\WolfAuf\GGS\GGS.Data\obj\Debug\net5.0\GGS.Data.csproj.CopyComplete
+C:\Users\almaz\Desktop\WolfAuf\GGS\GGS.Data\obj\Debug\net5.0\GGS.Data.dll
+C:\Users\almaz\Desktop\WolfAuf\GGS\GGS.Data\obj\Debug\net5.0\GGS.Data.pdb
