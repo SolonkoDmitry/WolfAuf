@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 	<style type="text/css">
+		@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+			
 		body{
 			background-image: url("bacground-image.jpg");
 			background-repeat: no-repeat;	
@@ -144,8 +146,53 @@
 			color:white;
 		}
 		
+		.menubar1:hover{
+			background-color: lightgray;
+		}
+		.menubar2:hover{
+			background-color: lightgray;
+		}
+		.enter_or_autentification:hover{
+			background-color: lightgray;
+		}
+		.mainmenubar1:hover{
+			background-color: lightgray;
+		}
+		td:hover{
+			background-color: lightgray;
+		}
+		.search_sumbit{
+			position: absolute; 
+  			top: 4;
+  			right: -20px;
+  			width: 36px;
+ 			height: 21px;
+  			border: none;
+			
+  			background: lightgray;
+  			border-radius: 0 5px 5px 0;
+  			cursor: pointer;
+		}
+		.search_sumbit:before{
+			content: "\f002";
+  			font-family: FontAwesome;
+  			font-size: 16px;
+  			color: black;
+		}
+		.search_text{
+			padding-left: 10px;
+			border: 2px solid lightgray;
+ 			border-radius: 5px;
+			outline: none;
+  			background: white;
+  			color: black;
+		}
+		
+		
+		
 	</style>
 	<meta charset="UTF-8">
+	<meta rel="stylesheet" href="MainPage.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>MainPage</title>
 	<link rel="icon" href="3Variant_3.ico">
@@ -156,7 +203,7 @@
 		
 		<div id="enter">
 			<form method="post" action="" >
-			<a href="Login.html" target="_self"><span class="enter_or_autentification">  Вход </span></a> <a href="Autentification.html" target="_self"><span class="enter_or_autentification"> Регистрация </span></a>   <!--Поисковая строчка -->
+			<a href="Login.html" target="_self"><span class="enter_or_autentification">  Вход </span></a> <a href="Autentification.html" target="_self"><span class="enter_or_autentification"> Регистрация </span></a>  <!--Вход/выход или аутентификация --> 
 				
 		
 			</form>
@@ -164,8 +211,8 @@
 		<div class="search">
 			<form method="post" action="" >
 				<p class="p1">
-					<input type="search" name="Search" placeholder="Поиск по магазину" >  <!--Вход/выход или аутентификация -->
-		   			<input type="submit" value="Поиск" name="Search">
+					<input type="search" name="Search" placeholder="Поиск по магазину" class="search_text">  <!--Поисковая строчка -->
+		   			<button type="submit" value="" name="Search" class="search_sumbit"></button>
 				</p>
 			</form>
 		</div>
