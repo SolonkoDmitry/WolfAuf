@@ -36,8 +36,6 @@ C:\Users\almaz\Desktop\WolfAuf\GGS\GGS\obj\Debug\net5.0\GGS.Web.RazorAssemblyInf
 C:\Users\almaz\Desktop\WolfAuf\GGS\GGS\obj\Debug\net5.0\GGS.Web.TagHelpers.input.cache
 C:\Users\almaz\Desktop\WolfAuf\GGS\GGS\obj\Debug\net5.0\GGS.Web.TagHelpers.output.cache
 C:\Users\almaz\Desktop\WolfAuf\GGS\GGS\obj\Debug\net5.0\GGS.Web.RazorCoreGenerate.cache
-C:\Users\almaz\Desktop\WolfAuf\GGS\GGS\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\almaz\Desktop\WolfAuf\GGS\GGS\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\almaz\Desktop\WolfAuf\GGS\GGS\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\almaz\Desktop\WolfAuf\GGS\GGS\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\almaz\Desktop\WolfAuf\GGS\GGS\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -52,3 +50,4 @@ C:\Users\almaz\Desktop\WolfAuf\GGS\GGS\obj\Debug\net5.0\staticwebassets\GGS.Web.
 C:\Users\almaz\Desktop\WolfAuf\GGS\GGS\obj\Debug\net5.0\GGS.Web.dll
 C:\Users\almaz\Desktop\WolfAuf\GGS\GGS\obj\Debug\net5.0\GGS.Web.pdb
 C:\Users\almaz\Desktop\WolfAuf\GGS\GGS\obj\Debug\net5.0\GGS.Web.genruntimeconfig.cache
+C:\Users\almaz\Desktop\WolfAuf\GGS\GGS\obj\Debug\net5.0\Razor\Views\Home\Main.cshtml.g.cs
