@@ -51,3 +51,4 @@ C:\Users\almaz\Desktop\WolfAuf\GGS\GGS\obj\Debug\net5.0\GGS.Web.dll
 C:\Users\almaz\Desktop\WolfAuf\GGS\GGS\obj\Debug\net5.0\GGS.Web.pdb
 C:\Users\almaz\Desktop\WolfAuf\GGS\GGS\obj\Debug\net5.0\GGS.Web.genruntimeconfig.cache
 C:\Users\almaz\Desktop\WolfAuf\GGS\GGS\obj\Debug\net5.0\Razor\Views\Home\Main.cshtml.g.cs
+C:\Users\almaz\Desktop\WolfAuf\GGS\GGS\obj\Debug\net5.0\Razor\Views\Home\Login.cshtml.g.cs

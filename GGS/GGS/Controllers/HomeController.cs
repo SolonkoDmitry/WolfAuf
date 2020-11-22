@@ -8,7 +8,11 @@ namespace GGS.Web.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Main()
+        public ActionResult Main()
+        {
+            return View();
+        }
+        public ActionResult Login()
         {
             return View();
         }
