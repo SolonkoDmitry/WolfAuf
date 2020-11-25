@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Iz/h+yfHgotwpiHMv8dqgFmgDCYaUDJC+hlWx0XeYBFI6WMUsoVAHX+ZhzTwXGQIxYutduH0HMDxL8Y1uH6JjQ==",
+  "dgSpecHash": "tVqmqvcy5qdbIFZLHcJ4u1ooP1MXZLTVkJvx7N1u0uAa1FWB3PfYrgNriMVsMLJxrQrkhiQ7Fa0r7JdXSCYpSg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\almaz\\Desktop\\dfg\\WolfAuf\\GGS\\GGS.Domain\\GGS.Domain.csproj",
+  "projectFilePath": "C:\\Users\\almaz\\Desktop\\sef\\WolfAuf\\GGS\\GGS.Domain\\GGS.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\almaz\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\almaz\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
@@ -14,6 +14,7 @@
     "C:\\Users\\almaz\\.nuget\\packages\\microsoft.entityframeworkcore.design\\3.1.10\\microsoft.entityframeworkcore.design.3.1.10.nupkg.sha512",
     "C:\\Users\\almaz\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.10\\microsoft.entityframeworkcore.relational.3.1.10.nupkg.sha512",
     "C:\\Users\\almaz\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\3.1.10\\microsoft.entityframeworkcore.sqlserver.3.1.10.nupkg.sha512",
+    "C:\\Users\\almaz\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\3.1.10\\microsoft.entityframeworkcore.tools.3.1.10.nupkg.sha512",
     "C:\\Users\\almaz\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.10\\microsoft.extensions.caching.abstractions.3.1.10.nupkg.sha512",
     "C:\\Users\\almaz\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.10\\microsoft.extensions.caching.memory.3.1.10.nupkg.sha512",
     "C:\\Users\\almaz\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.10\\microsoft.extensions.configuration.3.1.10.nupkg.sha512",

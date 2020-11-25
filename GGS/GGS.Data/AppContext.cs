@@ -1,6 +1,8 @@
 ﻿using System;
 using GGS.Domain;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
+using Microsoft.EntityFrameworkCore.SqlServer;
 
 namespace GGS.Data
 {
@@ -20,15 +22,5 @@ namespace GGS.Data
         {
         }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            base.OnModelCreating(modelBuilder);
-        }
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            base.OnConfiguring(optionsBuilder);
-            // optionsBuilder.UseLoggerFactory(ConsoleLoggerFactory);
-        }
     }
 }

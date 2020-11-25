@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\almaz\\Desktop\\dfg\\WolfAuf\\GGS\\GGS\\GGS.Web.csproj": {}
+    "C:\\Users\\almaz\\Desktop\\sef\\WolfAuf\\GGS\\GGS\\GGS.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\almaz\\Desktop\\dfg\\WolfAuf\\GGS\\GGS.Data\\GGS.Data.csproj": {
+    "C:\\Users\\almaz\\Desktop\\sef\\WolfAuf\\GGS\\GGS.Data\\GGS.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\almaz\\Desktop\\dfg\\WolfAuf\\GGS\\GGS.Data\\GGS.Data.csproj",
+        "projectUniqueName": "C:\\Users\\almaz\\Desktop\\sef\\WolfAuf\\GGS\\GGS.Data\\GGS.Data.csproj",
         "projectName": "GGS.Data",
-        "projectPath": "C:\\Users\\almaz\\Desktop\\dfg\\WolfAuf\\GGS\\GGS.Data\\GGS.Data.csproj",
+        "projectPath": "C:\\Users\\almaz\\Desktop\\sef\\WolfAuf\\GGS\\GGS.Data\\GGS.Data.csproj",
         "packagesPath": "C:\\Users\\almaz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\almaz\\Desktop\\dfg\\WolfAuf\\GGS\\GGS.Data\\obj\\",
+        "outputPath": "C:\\Users\\almaz\\Desktop\\sef\\WolfAuf\\GGS\\GGS.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\almaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\almaz\\Desktop\\dfg\\WolfAuf\\GGS\\GGS.Domain\\GGS.Domain.csproj": {
-                "projectPath": "C:\\Users\\almaz\\Desktop\\dfg\\WolfAuf\\GGS\\GGS.Domain\\GGS.Domain.csproj"
+              "C:\\Users\\almaz\\Desktop\\sef\\WolfAuf\\GGS\\GGS.Domain\\GGS.Domain.csproj": {
+                "projectPath": "C:\\Users\\almaz\\Desktop\\sef\\WolfAuf\\GGS\\GGS.Domain\\GGS.Domain.csproj"
               }
             }
           }
@@ -61,6 +61,12 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.10, )"
             }
           },
           "imports": [
@@ -82,14 +88,14 @@
         }
       }
     },
-    "C:\\Users\\almaz\\Desktop\\dfg\\WolfAuf\\GGS\\GGS.Domain\\GGS.Domain.csproj": {
+    "C:\\Users\\almaz\\Desktop\\sef\\WolfAuf\\GGS\\GGS.Domain\\GGS.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\almaz\\Desktop\\dfg\\WolfAuf\\GGS\\GGS.Domain\\GGS.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\almaz\\Desktop\\sef\\WolfAuf\\GGS\\GGS.Domain\\GGS.Domain.csproj",
         "projectName": "GGS.Domain",
-        "projectPath": "C:\\Users\\almaz\\Desktop\\dfg\\WolfAuf\\GGS\\GGS.Domain\\GGS.Domain.csproj",
+        "projectPath": "C:\\Users\\almaz\\Desktop\\sef\\WolfAuf\\GGS\\GGS.Domain\\GGS.Domain.csproj",
         "packagesPath": "C:\\Users\\almaz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\almaz\\Desktop\\dfg\\WolfAuf\\GGS\\GGS.Domain\\obj\\",
+        "outputPath": "C:\\Users\\almaz\\Desktop\\sef\\WolfAuf\\GGS\\GGS.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\almaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -135,6 +141,12 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.10, )"
             }
           },
           "imports": [
@@ -156,14 +168,14 @@
         }
       }
     },
-    "C:\\Users\\almaz\\Desktop\\dfg\\WolfAuf\\GGS\\GGS\\GGS.Web.csproj": {
+    "C:\\Users\\almaz\\Desktop\\sef\\WolfAuf\\GGS\\GGS\\GGS.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\almaz\\Desktop\\dfg\\WolfAuf\\GGS\\GGS\\GGS.Web.csproj",
+        "projectUniqueName": "C:\\Users\\almaz\\Desktop\\sef\\WolfAuf\\GGS\\GGS\\GGS.Web.csproj",
         "projectName": "GGS.Web",
-        "projectPath": "C:\\Users\\almaz\\Desktop\\dfg\\WolfAuf\\GGS\\GGS\\GGS.Web.csproj",
+        "projectPath": "C:\\Users\\almaz\\Desktop\\sef\\WolfAuf\\GGS\\GGS\\GGS.Web.csproj",
         "packagesPath": "C:\\Users\\almaz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\almaz\\Desktop\\dfg\\WolfAuf\\GGS\\GGS\\obj\\",
+        "outputPath": "C:\\Users\\almaz\\Desktop\\sef\\WolfAuf\\GGS\\GGS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\almaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -180,11 +192,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\almaz\\Desktop\\dfg\\WolfAuf\\GGS\\GGS.Data\\GGS.Data.csproj": {
-                "projectPath": "C:\\Users\\almaz\\Desktop\\dfg\\WolfAuf\\GGS\\GGS.Data\\GGS.Data.csproj"
+              "C:\\Users\\almaz\\Desktop\\sef\\WolfAuf\\GGS\\GGS.Data\\GGS.Data.csproj": {
+                "projectPath": "C:\\Users\\almaz\\Desktop\\sef\\WolfAuf\\GGS\\GGS.Data\\GGS.Data.csproj"
               },
-              "C:\\Users\\almaz\\Desktop\\dfg\\WolfAuf\\GGS\\GGS.Domain\\GGS.Domain.csproj": {
-                "projectPath": "C:\\Users\\almaz\\Desktop\\dfg\\WolfAuf\\GGS\\GGS.Domain\\GGS.Domain.csproj"
+              "C:\\Users\\almaz\\Desktop\\sef\\WolfAuf\\GGS\\GGS.Domain\\GGS.Domain.csproj": {
+                "projectPath": "C:\\Users\\almaz\\Desktop\\sef\\WolfAuf\\GGS\\GGS.Domain\\GGS.Domain.csproj"
               }
             }
           }
@@ -217,7 +229,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.3, )"
+              "version": "[3.1.10, )"
             }
           },
           "imports": [

@@ -23,6 +23,6 @@ namespace GGS.Domain
         {
         }
 
-        public IList<Game> Products { get; protected set; } = new List<Game>();
+        
     }
 }
