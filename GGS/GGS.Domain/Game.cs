@@ -4,17 +4,18 @@ using System.Collections.Generic;
 
 namespace GGS.Domain
 {
-    public class Product
+    public class Game
     {
-        protected Product()
+        protected Game()
         {
         }
 
-        public Product(int iD, string name, 
+        public Game(int iD, string name, string shortDesc, 
             string description, decimal priceRub, string imageURL)
         {
             ID = iD;
             Name = name;
+            ShortDesc = shortDesc;
             Description = description;
             PriceRub = priceRub;
             ImageURL = imageURL;
@@ -24,6 +25,8 @@ namespace GGS.Domain
         public int ID { get; protected set; }
 
         public string Name { get; protected set; }
+
+        public string ShortDesc { get; protected set; }
 
         public string Description { get; protected set; }
 
