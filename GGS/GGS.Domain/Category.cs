@@ -9,20 +9,11 @@ namespace GGS.Domain
     public class Category
     {
 
-        public int ID { get; protected set; }
+        public int ID { get; set; }
 
-        public string Name { get; protected set; }
+        public string Name { get; set; }
 
-        public Category(int iD, string name)
-        {
-            ID = iD;
-            Name = name;
-        }
+        public IList<Game> Games { get; set; }
 
-        protected Category()
-        {
-        }
-
-        
     }
 }
