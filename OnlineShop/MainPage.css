@@ -1,0 +1,144 @@
+@charset "UTF-8";
+	/* CSS Document */
+body{
+			background-image: url("bacground-image.jpg");
+			background-repeat: no-repeat;	
+			background-attachment: fixed;
+			
+		}
+.logo
+{
+			position: absolute;
+			left:0;
+			top:0;
+		}
+		.search{
+			position: absolute;
+			left:10.4%;
+			top:25px;
+			
+		}
+		
+		#enter{
+			text-align: right;
+			color:black;
+		}
+		.enter_or_autentification{
+			word-spacing: 15px;
+			border-width: 4px;
+			border-style: double;
+			border-color:black;
+			background-color: white;
+			white-space: pre;
+			
+			
+			
+		}	
+		.menubar1,.menubar2{
+			white-space: pre;
+			border-width: 4px;
+			border-style: double;
+			border-color:black;
+			background-color: white;
+			
+		}
+		.menbar{
+			position: absolute;
+			top:39px;
+			left:45%;
+			
+		}
+		.mainmenubar{
+			word-spacing: 6px;
+			position: absolute;
+			top:150px;
+			left:38.5%;
+			border-width: 4px;
+			border-style: double;
+			border-color:black;
+			background-color: black;
+			
+		}
+		.mainmenubar1{
+			border-width: 4px;
+			border-style: double;
+			border-color:black;
+			white-space: pre;
+			background-color: white;
+		}
+		a{
+			text-decoration: none;
+			text-transform: uppercase;
+			
+			color:black;
+		
+		}
+		/*Сверху все стили для header */
+		/*Ниже для article */
+		.hits_of_season{
+			position: absolute;
+			top: 21%;
+			left:5%;	
+		}
+		.ZagolovokJanr{
+			position: absolute;
+			top:68%;
+			left:6.9%;
+				
+		}
+		.ZagolovokRazdel{
+			position: absolute;
+			top:118%;
+			left:6.9%;
+		}
+		h1.hits_span{
+			font-weight:600;
+			font-size: 30px;
+			color:white;
+			color:white;
+		}
+		h1.ZagolovokJanr1{
+			font-weight:600;
+			font-size: 30px;
+			color:white;
+		}
+		h1.ZagolovokRazdel1{
+			font-weight:600;
+			font-size: 30px;
+		}
+		.janr{  /*Таблица жанров */
+			border-width: 2px;
+			border-style: double;
+			border-color:white;
+			position: absolute;
+			top:75%;
+			left:5%;
+			
+		}
+		.razdel{/*Таблица разделов */
+			border-width: 2px;
+			border-style: double;
+			border-color:white;
+			position: absolute;
+			top:125%;
+			left:5%;
+			
+		}
+		td{/*Выравнивание таблиц */
+			text-align: center;
+			border-color: black;
+			background-color: white;
+			
+		}
+		.menubarofgame{
+			position: absolute;
+			top:73%;
+			left:40.5%;
+			
+		}
+		.footer{
+			position: absolute;
+			top:155%;
+			left:50%;
+			color:white;
+		}

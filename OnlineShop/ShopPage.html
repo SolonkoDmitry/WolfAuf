@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style>
+		@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+		body{
+			background-image: url("bacground-image.jpg");
+			background-repeat: no-repeat;	
+			background-attachment: fixed;
+			background-size: cover;
+			overflow-x: hidden;
+		}
+		.logo{
+			position: absolute;
+			left:0%;
+			top:0%;
+			width: 100%;
+			height: 100%;
+		}
+		.search{
+			position: absolute;
+			left:15%;
+			top:2%;
+			width: 100%
+		}
+		.search_sumbit{
+			position: absolute; 
+  			top: 4;
+			left:7.9%;
+  			right: -20px;
+  			width: 36px;
+			
+ 			height: 21px;
+  			border: none;
+			
+  			background: lightgray;
+  			border-radius: 0 5px 5px 0;
+  			cursor: pointer;
+		}
+		.search_sumbit:before{
+			content: "\f002";
+  			font-family: FontAwesome;
+  			font-size: 16px;
+  			color: black;
+		}
+		.search_text{
+			padding-left: 10px;
+			border: 2px solid lightgray;
+ 			border-radius: 5px;
+			outline: none;
+  			background: white;
+  			color: black;
+		}
+		#enter{
+			position: absolute;
+			top:1%;
+			left:85%;
+			color:black;
+			width: 100%;
+			height: 100%;	
+		}
+		.enter_or_autentification{
+			word-spacing: 15px;
+			border-width: 4px;
+			border-style: double;
+			border-color:black;
+			background-color: white;
+			white-space: pre;
+				
+			
+			
+			
+		}	
+		.menubar1,.menubar2{
+			white-space: pre;
+			border-width: 4px;
+			border-style: double;
+			border-color:black;
+			background-color: white;
+			
+		}
+		.menbar{
+			position: absolute;
+			top:4%;
+			left:46.5%;
+			width: 100%;
+			height: 100%;
+			
+		}
+		.mainmenubar{
+			word-spacing: 6px;
+			position: absolute;
+			top:15%;
+			left:40%;
+			border-width: 4px;
+			border-style: double;
+			border-color:black;
+			background-color: black;
+			
+			
+		}
+		.mainmenubar1{
+			border-width: 4px;
+			border-style: double;
+			border-color:black;
+			white-space: pre;
+			background-color: white;
+			width: 100%;
+			height: 100%;
+		}
+		a{
+			text-decoration: none;
+			text-transform: uppercase;
+			
+			color:black;
+		
+		}
+	</style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Keywords" content="Низкие цены, видеоигры, магазин видеоигр, игры, дёшево ">
+	<meta name="Description" content="GGStore - магазин видеоигр для любой платформы, по самым низким ценам">
+	<title>ShopPage</title>
+	<link rel="icon" href="3Variant_3.ico">
+	<meta name="robots" content="index,folow">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+		<header>
+		<div class="logo"><a href="MainPage.html" target="_self"><img src="Logo.jpg" alt="Logotim" width="15%" height="15%" ></a></div> <!--Логотип -->
+		
+		<div id="enter">
+			<form method="post" action="" >
+			<a href="Login.html" target="_self"><span class="enter_or_autentification">  Вход </span></a> <a href="Autentification.html" target="_self"><span class="enter_or_autentification"> Регистрация </span></a>  <!--Вход/выход или аутентификация --> 
+				
+		
+			</form>
+		</div>
+		<div class="search">
+			<form method="post" action="" >
+				<p class="p1">
+					<input type="search" name="Search" placeholder="Поиск по магазину" class="search_text">  <!--Поисковая строчка -->
+		   			<button type="submit" value="" name="Search" class="search_sumbit"></button>
+				</p>
+			</form>
+		</div>
+		<nav>
+
+				<form method="post" action="" >
+			<div class="menbar"><a href="#" target="_self"><span class="menubar1"> Личный кабинет  </span></a> <a href="Basket.html" target="_self"><span class="menubar2"> Корзина</span></a></div>
+			
+		
+				</form>
+			
+		</nav>	
+		
+		<nav>
+			<form method="post" action="">
+				<div class="mainmenubar"> 
+					<a href="MainPage.html" target="_self"><span class="mainmenubar1	">  Главная  </span></a>
+					<a href="#" target="_self"><span class="mainmenubar1	">  Новинки  </span></a>
+					<a href="#" target="_self"><span class="mainmenubar1	"> Предзаказ  </span></a>
+					<a href="#" target="_self"><span class="mainmenubar1	"> Скидки  </span></a>
+					
+				</div>
+			
+			</form>
+		
+		</nav>
+		
+	</header>
+	<main>
+		
+	
+	</main>
+</body>
+</html>

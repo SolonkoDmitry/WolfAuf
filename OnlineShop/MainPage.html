@@ -8,23 +8,33 @@
 			background-image: url("bacground-image.jpg");
 			background-repeat: no-repeat;	
 			background-attachment: fixed;
+			background-size: cover;/*Бэкграунд одного размера независимо от масштаба*/
+			overflow-x: hidden; /*Горизонтальный скрол */
 			
 		}
 		.logo{
 			position: absolute;
-			left:0;
-			top:0;
+			left:0%;
+			top:0%;
+			width: 100%;
+			height: 100%;
 		}
 		.search{
 			position: absolute;
-			left:10.4%;
-			top:25px;
+			left:15%;
+			top:2%;
+			width: 100%
+			
 			
 		}
 		
 		#enter{
-			text-align: right;
+			position: absolute;
+			top:1%;
+			left:85%;
 			color:black;
+			width: 100%;
+			height: 100%;	
 		}
 		.enter_or_autentification{
 			word-spacing: 15px;
@@ -33,6 +43,7 @@
 			border-color:black;
 			background-color: white;
 			white-space: pre;
+				
 			
 			
 			
@@ -47,19 +58,23 @@
 		}
 		.menbar{
 			position: absolute;
-			top:39px;
-			left:45%;
+			top:4%;
+			left:46.5%;
+			width: 100%;
+			height: 100%;
 			
 		}
 		.mainmenubar{
 			word-spacing: 6px;
 			position: absolute;
-			top:150px;
-			left:38.5%;
+			top:15%;
+			left:40%;
+			
 			border-width: 4px;
 			border-style: double;
 			border-color:black;
 			background-color: black;
+			
 			
 		}
 		.mainmenubar1{
@@ -68,6 +83,8 @@
 			border-color:black;
 			white-space: pre;
 			background-color: white;
+			width: 100%;
+			height: 100%;
 		}
 		a{
 			text-decoration: none;
@@ -80,19 +97,22 @@
 		/*Ниже для article */
 		.hits_of_season{
 			position: absolute;
-			top: 21%;
-			left:5%;	
+			top: 25%;
+			left:4.5%;
+			width: 100%;
 		}
 		.ZagolovokJanr{
 			position: absolute;
 			top:68%;
-			left:6.9%;
+			left:6.7%;
+			width: 100%;
 				
 		}
 		.ZagolovokRazdel{
 			position: absolute;
-			top:118%;
-			left:6.9%;
+			top:120%;
+			left:6.5%;
+			width: 100%;
 		}
 		h1.hits_span{
 			font-weight:600;
@@ -114,8 +134,9 @@
 			border-style: double;
 			border-color:white;
 			position: absolute;
-			top:75%;
+			top:75.8%;
 			left:5%;
+			
 			
 		}
 		.razdel{/*Таблица разделов */
@@ -123,8 +144,9 @@
 			border-style: double;
 			border-color:white;
 			position: absolute;
-			top:125%;
+			top:128%;
 			left:5%;
+			
 			
 		}
 		td{/*Выравнивание таблиц */
@@ -136,7 +158,7 @@
 		.menubarofgame{
 			position: absolute;
 			top:73%;
-			left:40.5%;
+			left:42.5%;
 			
 		}
 		.footer{
@@ -164,8 +186,10 @@
 		.search_sumbit{
 			position: absolute; 
   			top: 4;
+			left:7.9%;
   			right: -20px;
   			width: 36px;
+			
  			height: 21px;
   			border: none;
 			
@@ -192,10 +216,12 @@
 		
 	</style>
 	<meta charset="UTF-8">
-	<meta rel="stylesheet" href="MainPage.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Keywords" content="Низкие цены, видеоигры, магазин видеоигр, игры, дёшево ">
+	<meta name="Description" content="GGStore - магазин видеоигр для любой платформы, по самым низким ценам">
 	<title>MainPage</title>
 	<link rel="icon" href="3Variant_3.ico">
+	<meta name="robots" content="index,folow">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body >
 	<header>
