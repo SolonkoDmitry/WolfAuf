@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\almaz\\Desktop\\REUP\\GGS\\GGS.Data\\GGS.Data.csproj": {}
+    "C:\\Users\\almaz\\Desktop\\New2\\GGS\\GGS.Data\\GGS.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\almaz\\Desktop\\REUP\\GGS\\GGS.Data\\GGS.Data.csproj": {
+    "C:\\Users\\almaz\\Desktop\\New2\\GGS\\GGS.Data\\GGS.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\almaz\\Desktop\\REUP\\GGS\\GGS.Data\\GGS.Data.csproj",
+        "projectUniqueName": "C:\\Users\\almaz\\Desktop\\New2\\GGS\\GGS.Data\\GGS.Data.csproj",
         "projectName": "GGS.Data",
-        "projectPath": "C:\\Users\\almaz\\Desktop\\REUP\\GGS\\GGS.Data\\GGS.Data.csproj",
+        "projectPath": "C:\\Users\\almaz\\Desktop\\New2\\GGS\\GGS.Data\\GGS.Data.csproj",
         "packagesPath": "C:\\Users\\almaz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\almaz\\Desktop\\REUP\\GGS\\GGS.Data\\obj\\",
+        "outputPath": "C:\\Users\\almaz\\Desktop\\New2\\GGS\\GGS.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\almaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\almaz\\Desktop\\REUP\\GGS\\GGS.Domain\\GGS.Domain.csproj": {
-                "projectPath": "C:\\Users\\almaz\\Desktop\\REUP\\GGS\\GGS.Domain\\GGS.Domain.csproj"
+              "C:\\Users\\almaz\\Desktop\\New2\\GGS\\GGS.Domain\\GGS.Domain.csproj": {
+                "projectPath": "C:\\Users\\almaz\\Desktop\\New2\\GGS\\GGS.Domain\\GGS.Domain.csproj"
               }
             }
           }
@@ -46,23 +46,23 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.1, )"
             }
           },
           "imports": [
@@ -84,14 +84,14 @@
         }
       }
     },
-    "C:\\Users\\almaz\\Desktop\\REUP\\GGS\\GGS.Domain\\GGS.Domain.csproj": {
+    "C:\\Users\\almaz\\Desktop\\New2\\GGS\\GGS.Domain\\GGS.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\almaz\\Desktop\\REUP\\GGS\\GGS.Domain\\GGS.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\almaz\\Desktop\\New2\\GGS\\GGS.Domain\\GGS.Domain.csproj",
         "projectName": "GGS.Domain",
-        "projectPath": "C:\\Users\\almaz\\Desktop\\REUP\\GGS\\GGS.Domain\\GGS.Domain.csproj",
+        "projectPath": "C:\\Users\\almaz\\Desktop\\New2\\GGS\\GGS.Domain\\GGS.Domain.csproj",
         "packagesPath": "C:\\Users\\almaz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\almaz\\Desktop\\REUP\\GGS\\GGS.Domain\\obj\\",
+        "outputPath": "C:\\Users\\almaz\\Desktop\\New2\\GGS\\GGS.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\almaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -122,23 +122,23 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.1, )"
             }
           },
           "imports": [

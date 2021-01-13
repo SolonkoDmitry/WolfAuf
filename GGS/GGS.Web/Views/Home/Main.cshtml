@@ -1,6 +1,7 @@
 ﻿
-@using GGS.Domain
+@model List<Game>
 
+@using GGS.Domain
 @{
     Layout = null;
 }
@@ -14,187 +15,249 @@
             background-image: url('../Images/bacground-image.jpg');
             background-repeat: no-repeat;
             background-attachment: fixed;
+            background-size: cover; /*Бэкграунд одного размера независимо от масштаба*/
+            overflow-x: hidden; /*Горизонтальный скрол */
         }
-		.logo{
-			position: absolute;
-			left:0;
-			top:0;
-		}
-		.search{
-			position: absolute;
-			left:10.4%;
-			top:25px;
 
-		}
+        .logo {
+            position: absolute;
+            left: 0%;
+            top: 0%;
+            width: 100%;
+            height: 100%;
+        }
 
-		#enter{
-			text-align: right;
-			color:black;
-		}
-		.enter_or_autentification{
-			word-spacing: 15px;
-			border-width: 4px;
-			border-style: double;
-			border-color:black;
-			background-color: white;
-			white-space: pre;
+        .search {
+            position: absolute;
+            left: 15%;
+            top: 2%;
+            width: 100%
+        }
 
+        #enter {
+            position: absolute;
+            top: 1%;
+            left: 85%;
+            color: black;
+            width: 100%;
+            height: 100%;
+        }
 
+        .enter_or_autentification {
+            word-spacing: 15px;
+            border-width: 4px;
+            border-style: double;
+            border-color: black;
+            background-color: white;
+            white-space: pre;
+        }
 
-		}
-		.menubar1,.menubar2{
-			white-space: pre;
-			border-width: 4px;
-			border-style: double;
-			border-color:black;
-			background-color: white;
+        .menubar1, .menubar2 {
+            white-space: pre;
+            border-width: 4px;
+            border-style: double;
+            border-color: black;
+            background-color: white;
+        }
 
-		}
-		.menbar{
-			position: absolute;
-			top:39px;
-			left:45%;
+        .menbar {
+            position: absolute;
+            top: 4%;
+            left: 46.5%;
+            width: 100%;
+            height: 100%;
+        }
 
-		}
-		.mainmenubar{
-			word-spacing: 6px;
-			position: absolute;
-			top:150px;
-			left:38.5%;
-			border-width: 4px;
-			border-style: double;
-			border-color:black;
-			background-color: black;
+        .mainmenubar {
+            word-spacing: 6px;
+            position: absolute;
+            top: 15%;
+            left: 40%;
+            border-width: 4px;
+            border-style: double;
+            border-color: black;
+            background-color: black;
+        }
 
-		}
-		.mainmenubar1{
-			border-width: 4px;
-			border-style: double;
-			border-color:black;
-			white-space: pre;
-			background-color: white;
-		}
-		a{
-			text-decoration: none;
-			text-transform: uppercase;
+        .mainmenubar1 {
+            border-width: 4px;
+            border-style: double;
+            border-color: black;
+            white-space: pre;
+            background-color: white;
+            width: 100%;
+            height: 100%;
+        }
 
-			color:black;
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: black;
+        }
+        /*Сверху все стили для header */
+        /*Ниже для article */
+        .hits_of_season {
+            position: absolute;
+            top: 25%;
+            left: 4.5%;
+            width: 100%;
+        }
 
-		}
-		/*Сверху все стили для header */
-		/*Ниже для article */
-		.hits_of_season{
-			position: absolute;
-			top: 21%;
-			left:5%;
-		}
-		.ZagolovokJanr{
-			position: absolute;
-			top:68%;
-			left:6.9%;
+        .ZagolovokJanr {
+            position: absolute;
+            top: 68%;
+            left: 6.7%;
+            width: 100%;
+        }
 
-		}
-		.ZagolovokRazdel{
-			position: absolute;
-			top:118%;
-			left:6.9%;
-		}
-		h1.hits_span{
-			font-weight:600;
-			font-size: 30px;
-			color:white;
-			color:white;
-		}
-		h1.ZagolovokJanr1{
-			font-weight:600;
-			font-size: 30px;
-			color:white;
-		}
-		h1.ZagolovokRazdel1{
-			font-weight:600;
-			font-size: 30px;
-		}
-		.janr{  /*Таблица жанров */
-			border-width: 2px;
-			border-style: double;
-			border-color:white;
-			position: absolute;
-			top:75%;
-			left:5%;
+        .ZagolovokRazdel {
+            position: absolute;
+            top: 120%;
+            left: 6.5%;
+            width: 100%;
+        }
 
-		}
-		.razdel{/*Таблица разделов */
-			border-width: 2px;
-			border-style: double;
-			border-color:white;
-			position: absolute;
-			top:125%;
-			left:5%;
+        h1.hits_span {
+            font-weight: 600;
+            font-size: 30px;
+            color: white;
+            color: white;
+        }
 
-		}
-		td{/*Выравнивание таблиц */
-			text-align: center;
-			border-color: black;
-			background-color: white;
+        h1.ZagolovokJanr1 {
+            font-weight: 600;
+            font-size: 30px;
+            color: white;
+        }
 
-		}
-		.menubarofgame{
-			position: absolute;
-			top:73%;
-			left:40.5%;
+        h1.ZagolovokRazdel1 {
+            font-weight: 600;
+            font-size: 30px;
+        }
 
-		}
-		.footer{
-			position: absolute;
-			top:155%;
-			left:50%;
-			color:white;
-		}
+        .janr { /*Таблица жанров */
+            border-width: 2px;
+            border-style: double;
+            border-color: white;
+            position: absolute;
+            top: 75.8%;
+            left: 5%;
+        }
 
-		.menubar1:hover{
-			background-color: lightgray;
-		}
-		.menubar2:hover{
-			background-color: lightgray;
-		}
-		.enter_or_autentification:hover{
-			background-color: lightgray;
-		}
-		.mainmenubar1:hover{
-			background-color: lightgray;
-		}
-		td:hover{
-			background-color: lightgray;
-		}
-		.search_sumbit{
-			position: absolute;
-  			top: 4;
-  			right: -20px;
-  			width: 36px;
- 			height: 21px;
-  			border: none;
+        .razdel { /*Таблица разделов */
+            border-width: 2px;
+            border-style: double;
+            border-color: white;
+            position: absolute;
+            top: 128%;
+            left: 5%;
+        }
 
-  			background: lightgray;
-  			border-radius: 0 5px 5px 0;
-  			cursor: pointer;
-		}
-		.search_sumbit:before{
-			content: "\f002";
-  			font-family: FontAwesome;
-  			font-size: 16px;
-  			color: black;
-		}
-		.search_text{
-			padding-left: 10px;
-			border: 2px solid lightgray;
- 			border-radius: 5px;
-			outline: none;
-  			background: white;
-  			color: black;
-		}
+        td { /*Выравнивание таблиц */
+            text-align: center;
+            border-color: black;
+            background-color: white;
+        }
 
+        .menubarofgame {
+            position: absolute;
+            top: 73%;
+            left: 42.5%;
+        }
 
+        .footer {
+            position: absolute;
+            top: 155%;
+            left: 50%;
+            color: white;
+        }
 
+        .menubar1:hover {
+            background-color: lightgray;
+        }
+
+        .menubar2:hover {
+            background-color: lightgray;
+        }
+
+        .enter_or_autentification:hover {
+            background-color: lightgray;
+        }
+
+        .mainmenubar1:hover {
+            background-color: lightgray;
+        }
+
+        td:hover {
+            background-color: lightgray;
+        }
+
+        .search_sumbit {
+            position: absolute;
+            top: 4;
+            left: 7.9%;
+            right: -20px;
+            width: 36px;
+            height: 21px;
+            border: none;
+            background: lightgray;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+        }
+
+            .search_sumbit:before {
+                content: "\f002";
+                font-family: FontAwesome;
+                font-size: 16px;
+                color: black;
+            }
+
+        .search_text {
+            padding-left: 10px;
+            border: 2px solid lightgray;
+            border-radius: 5px;
+            outline: none;
+            background: white;
+            color: black;
+        }
+        .MenuGames {
+            border: 2px solid lightgray;
+            width: 800px;
+            height: 600px;
+            position: absolute;
+            top: 85%;
+            left: 30%;
+            overflow-y:scroll;
+        }
+        .InfoGames {
+            width: 400px;
+            height: 400px;
+
+        }
+        .NameOfGame {
+            color:red;
+            font-weight:700;
+            font-size:medium;
+            position:relative;
+            left:450px;
+            top:-175px;
+        }
+        .PriceOfGame {
+            color: red;
+            font-weight: 700;
+            font-size: medium;
+            position: relative;
+            left: 450px;
+            top: -170px;
+        }
+        .DescriptionOfGame {
+            color: red;
+            font-weight: 700;
+            font-size: medium;
+            position: relative;
+            left: 450px;
+            top: -165px;
+        }
     </style>
     <meta charset="UTF-8">
     <meta rel="stylesheet" href="MainPage.css">
@@ -312,7 +375,14 @@
             </div>
 
         </section>
-
+        <section>
+            <div class="MenuGames">
+                @foreach (var game in Model)
+                {
+                    Html.RenderPartial("Items", game);
+                }
+                    </div>
+        </section>
 
 
 

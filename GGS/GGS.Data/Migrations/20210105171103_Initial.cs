@@ -20,7 +20,7 @@ namespace GGS.Data.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Products",
+                name: "Games",
                 columns: table => new
                 {
                     ID = table.Column<int>(type: "int", nullable: false)
@@ -33,7 +33,20 @@ namespace GGS.Data.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Products", x => x.ID);
+                    table.PrimaryKey("PK_Games", x => x.ID);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Section",
+                columns: table => new
+                {
+                    ID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Section", x => x.ID);
                 });
 
             migrationBuilder.CreateTable(
@@ -53,27 +66,46 @@ namespace GGS.Data.Migrations
                         principalColumn: "ID",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_CategoryGame_Products_GamesID",
+                        name: "FK_CategoryGame_Games_GamesID",
                         column: x => x.GamesID,
-                        principalTable: "Products",
+                        principalTable: "Games",
                         principalColumn: "ID",
                         onDelete: ReferentialAction.Cascade);
                 });
 
-            migrationBuilder.InsertData(
-                table: "Categories",
-                columns: new[] { "ID", "Name" },
-                values: new object[] { 1, "Action" });
-
-            migrationBuilder.InsertData(
-                table: "Products",
-                columns: new[] { "ID", "Description", "ImageURL", "Name", "PriceRub", "ShortDesc" },
-                values: new object[] { 1, null, null, "Witcher", 0, null });
+            migrationBuilder.CreateTable(
+                name: "GameSection",
+                columns: table => new
+                {
+                    GamesID = table.Column<int>(type: "int", nullable: false),
+                    SectionsID = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_GameSection", x => new { x.GamesID, x.SectionsID });
+                    table.ForeignKey(
+                        name: "FK_GameSection_Games_GamesID",
+                        column: x => x.GamesID,
+                        principalTable: "Games",
+                        principalColumn: "ID",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_GameSection_Section_SectionsID",
+                        column: x => x.SectionsID,
+                        principalTable: "Section",
+                        principalColumn: "ID",
+                        onDelete: ReferentialAction.Cascade);
+                });
 
             migrationBuilder.CreateIndex(
                 name: "IX_CategoryGame_GamesID",
                 table: "CategoryGame",
                 column: "GamesID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_GameSection_SectionsID",
+                table: "GameSection",
+                column: "SectionsID");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -82,10 +114,16 @@ namespace GGS.Data.Migrations
                 name: "CategoryGame");
 
             migrationBuilder.DropTable(
+                name: "GameSection");
+
+            migrationBuilder.DropTable(
                 name: "Categories");
 
             migrationBuilder.DropTable(
-                name: "Products");
+                name: "Games");
+
+            migrationBuilder.DropTable(
+                name: "Section");
         }
     }
 }

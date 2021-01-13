@@ -20,7 +20,7 @@ namespace GGS.Web.Controllers
             _logger = logger;
             _context = context;
         }
-        
+
         public ActionResult Login()
         {
             return View();
@@ -35,6 +35,12 @@ namespace GGS.Web.Controllers
         public IActionResult Privacy()
         {
             return View();
+        }
+
+        public IActionResult Main()
+        {
+             var games = _context.Games.ToList();
+            return View(games);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

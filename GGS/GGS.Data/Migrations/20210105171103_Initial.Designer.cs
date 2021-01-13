@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GGS.Data.Migrations
 {
     [DbContext(typeof(MyAppContext))]
-    [Migration("20201208082837_Initial")]
+    [Migration("20210105171103_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -18,7 +18,7 @@ namespace GGS.Data.Migrations
             modelBuilder
                 .UseIdentityColumns()
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
-                .HasAnnotation("ProductVersion", "5.0.0");
+                .HasAnnotation("ProductVersion", "5.0.1");
 
             modelBuilder.Entity("CategoryGame", b =>
                 {
@@ -48,13 +48,6 @@ namespace GGS.Data.Migrations
                     b.HasKey("ID");
 
                     b.ToTable("Categories");
-
-                    b.HasData(
-                        new
-                        {
-                            ID = 1,
-                            Name = "Action"
-                        });
                 });
 
             modelBuilder.Entity("GGS.Domain.Game", b =>
@@ -81,15 +74,37 @@ namespace GGS.Data.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("Products");
+                    b.ToTable("Games");
+                });
 
-                    b.HasData(
-                        new
-                        {
-                            ID = 1,
-                            Name = "Witcher",
-                            PriceRub = 0
-                        });
+            modelBuilder.Entity("GGS.Domain.Section", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("Section");
+                });
+
+            modelBuilder.Entity("GameSection", b =>
+                {
+                    b.Property<int>("GamesID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("SectionsID")
+                        .HasColumnType("int");
+
+                    b.HasKey("GamesID", "SectionsID");
+
+                    b.HasIndex("SectionsID");
+
+                    b.ToTable("GameSection");
                 });
 
             modelBuilder.Entity("CategoryGame", b =>
@@ -103,6 +118,21 @@ namespace GGS.Data.Migrations
                     b.HasOne("GGS.Domain.Game", null)
                         .WithMany()
                         .HasForeignKey("GamesID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("GameSection", b =>
+                {
+                    b.HasOne("GGS.Domain.Game", null)
+                        .WithMany()
+                        .HasForeignKey("GamesID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("GGS.Domain.Section", null)
+                        .WithMany()
+                        .HasForeignKey("SectionsID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
