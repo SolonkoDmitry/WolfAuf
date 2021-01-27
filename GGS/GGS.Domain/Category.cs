@@ -8,7 +8,11 @@ namespace GGS.Domain
 {
     public class Category
     {
-     
+        public Category(int iD, string name)
+        {
+            ID = iD;
+            Name = name;
+        }
 
         public int ID { get; protected set; }
 

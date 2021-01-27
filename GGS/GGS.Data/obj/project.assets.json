@@ -5823,11 +5823,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\almaz\\Desktop\\New2\\GGS\\GGS.Data\\GGS.Data.csproj",
+      "projectUniqueName": "C:\\Users\\almaz\\Desktop\\NN@\\WolfAuf\\GGS\\GGS.Data\\GGS.Data.csproj",
       "projectName": "GGS.Data",
-      "projectPath": "C:\\Users\\almaz\\Desktop\\New2\\GGS\\GGS.Data\\GGS.Data.csproj",
+      "projectPath": "C:\\Users\\almaz\\Desktop\\NN@\\WolfAuf\\GGS\\GGS.Data\\GGS.Data.csproj",
       "packagesPath": "C:\\Users\\almaz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\almaz\\Desktop\\New2\\GGS\\GGS.Data\\obj\\",
+      "outputPath": "C:\\Users\\almaz\\Desktop\\NN@\\WolfAuf\\GGS\\GGS.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\almaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5844,8 +5844,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\almaz\\Desktop\\New2\\GGS\\GGS.Domain\\GGS.Domain.csproj": {
-              "projectPath": "C:\\Users\\almaz\\Desktop\\New2\\GGS\\GGS.Domain\\GGS.Domain.csproj"
+            "C:\\Users\\almaz\\Desktop\\NN@\\WolfAuf\\GGS\\GGS.Domain\\GGS.Domain.csproj": {
+              "projectPath": "C:\\Users\\almaz\\Desktop\\NN@\\WolfAuf\\GGS\\GGS.Domain\\GGS.Domain.csproj"
             }
           }
         }

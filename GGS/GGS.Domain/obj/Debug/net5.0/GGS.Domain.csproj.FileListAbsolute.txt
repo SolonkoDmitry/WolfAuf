@@ -11,3 +11,16 @@ C:\Users\almaz\Desktop\New2\GGS\GGS.Domain\obj\Debug\net5.0\GGS.Domain.csproj.Co
 C:\Users\almaz\Desktop\New2\GGS\GGS.Domain\obj\Debug\net5.0\GGS.Domain.dll
 C:\Users\almaz\Desktop\New2\GGS\GGS.Domain\obj\Debug\net5.0\GGS.Domain.pdb
 C:\Users\almaz\Desktop\New2\GGS\GGS.Domain\obj\Debug\net5.0\GGS.Domain.genruntimeconfig.cache
+C:\Users\almaz\Desktop\NN@\WolfAuf\GGS\GGS.Domain\bin\Debug\net5.0\GGS.Domain.deps.json
+C:\Users\almaz\Desktop\NN@\WolfAuf\GGS\GGS.Domain\bin\Debug\net5.0\GGS.Domain.runtimeconfig.json
+C:\Users\almaz\Desktop\NN@\WolfAuf\GGS\GGS.Domain\bin\Debug\net5.0\GGS.Domain.runtimeconfig.dev.json
+C:\Users\almaz\Desktop\NN@\WolfAuf\GGS\GGS.Domain\bin\Debug\net5.0\GGS.Domain.dll
+C:\Users\almaz\Desktop\NN@\WolfAuf\GGS\GGS.Domain\bin\Debug\net5.0\GGS.Domain.pdb
+C:\Users\almaz\Desktop\NN@\WolfAuf\GGS\GGS.Domain\obj\Debug\net5.0\GGS.Domain.csprojAssemblyReference.cache
+C:\Users\almaz\Desktop\NN@\WolfAuf\GGS\GGS.Domain\obj\Debug\net5.0\GGS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\almaz\Desktop\NN@\WolfAuf\GGS\GGS.Domain\obj\Debug\net5.0\GGS.Domain.AssemblyInfoInputs.cache
+C:\Users\almaz\Desktop\NN@\WolfAuf\GGS\GGS.Domain\obj\Debug\net5.0\GGS.Domain.AssemblyInfo.cs
+C:\Users\almaz\Desktop\NN@\WolfAuf\GGS\GGS.Domain\obj\Debug\net5.0\GGS.Domain.csproj.CoreCompileInputs.cache
+C:\Users\almaz\Desktop\NN@\WolfAuf\GGS\GGS.Domain\obj\Debug\net5.0\GGS.Domain.dll
+C:\Users\almaz\Desktop\NN@\WolfAuf\GGS\GGS.Domain\obj\Debug\net5.0\GGS.Domain.pdb
+C:\Users\almaz\Desktop\NN@\WolfAuf\GGS\GGS.Domain\obj\Debug\net5.0\GGS.Domain.genruntimeconfig.cache

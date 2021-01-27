@@ -1,0 +1,18 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model List<Game>
+
+@using GGS.Domain
+
+<div class="text-center">
+    <h1 class=" display-4">@ViewData["Tittle"]</h1>
+    <p>Learn about</p>
+
+</div>
+@foreach (var game in Model)
+{
+    Html.RenderPartial("Items", game);
+}

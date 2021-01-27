@@ -6,6 +6,8 @@ using GGS.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Routing;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -26,6 +28,7 @@ namespace GGS.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddMvc(options => options.EnableEndpointRouting = false);
             services.AddDbContext<MyAppContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
         }
@@ -49,6 +52,12 @@ namespace GGS.Web
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(name: "default", template: "{controller=Home}/{action=Main}/{id?}");
+                routes.MapRoute(name: "CategoryFilter", template: "{controller=Games}/{action}/{categoryN?}");
+            });
 
             app.UseEndpoints(endpoints =>
             {

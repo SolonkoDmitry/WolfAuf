@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0THjExVWQiCOMCkCdahg5a8wAT4r+ViLm7hSr+br9tg4sU+PzCt2BSHSxGTWSQTfUQeQfELlc4ju50Y6VHJRCQ==",
+  "dgSpecHash": "7AUCx9SCZ0FtbqIDhTP68daLZ2fz9gZ5Szdg6LBCZxyrhKN9s0pWd6XlFuCl4rMeNSwnIh1LuJ7hvjCrQgCSPg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\almaz\\Desktop\\New2\\GGS\\GGS.Domain\\GGS.Domain.csproj",
+  "projectFilePath": "C:\\Users\\almaz\\Desktop\\NN@\\WolfAuf\\GGS\\GGS.Domain\\GGS.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\almaz\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\almaz\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

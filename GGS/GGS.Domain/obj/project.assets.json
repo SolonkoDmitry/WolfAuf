@@ -5803,11 +5803,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\almaz\\Desktop\\New2\\GGS\\GGS.Domain\\GGS.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\almaz\\Desktop\\NN@\\WolfAuf\\GGS\\GGS.Domain\\GGS.Domain.csproj",
       "projectName": "GGS.Domain",
-      "projectPath": "C:\\Users\\almaz\\Desktop\\New2\\GGS\\GGS.Domain\\GGS.Domain.csproj",
+      "projectPath": "C:\\Users\\almaz\\Desktop\\NN@\\WolfAuf\\GGS\\GGS.Domain\\GGS.Domain.csproj",
       "packagesPath": "C:\\Users\\almaz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\almaz\\Desktop\\New2\\GGS\\GGS.Domain\\obj\\",
+      "outputPath": "C:\\Users\\almaz\\Desktop\\NN@\\WolfAuf\\GGS\\GGS.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\almaz\\AppData\\Roaming\\NuGet\\NuGet.Config",

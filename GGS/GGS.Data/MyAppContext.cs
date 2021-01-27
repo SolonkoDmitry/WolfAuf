@@ -10,7 +10,14 @@ namespace GGS.Data
 
         public DbSet<Category> Categories { get; set; }
 
+        public DbSet<Section> Sections { get; set; }
+
+   
         public MyAppContext(DbContextOptions options) : base(options)
+        {
+        }
+
+        public MyAppContext()
         {
         }
 

@@ -12,7 +12,7 @@
 
 
         body {
-            background-image: url('../Images/bacground-image.jpg');
+            background-image: url('/Images/bacground-image.jpg');
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover; /*Бэкграунд одного размера независимо от масштаба*/
@@ -220,6 +220,7 @@
             background: white;
             color: black;
         }
+
         .MenuGames {
             border: 2px solid lightgray;
             width: 800px;
@@ -227,21 +228,23 @@
             position: absolute;
             top: 85%;
             left: 30%;
-            overflow-y:scroll;
+            overflow-y: scroll;
         }
+
         .InfoGames {
             width: 400px;
             height: 400px;
+        }
 
-        }
         .NameOfGame {
-            color:red;
-            font-weight:700;
-            font-size:medium;
-            position:relative;
-            left:450px;
-            top:-175px;
+            color: red;
+            font-weight: 700;
+            font-size: medium;
+            position: relative;
+            left: 450px;
+            top: -175px;
         }
+
         .PriceOfGame {
             color: red;
             font-weight: 700;
@@ -250,6 +253,7 @@
             left: 450px;
             top: -170px;
         }
+
         .DescriptionOfGame {
             color: red;
             font-weight: 700;
@@ -325,20 +329,20 @@
             <div class="janr">
                 <table border="2" cellpadding="3px" bordercolor="white" width="150px">
 
-                    <tr><td>@Html.ActionLink("Экшн", "List", "Games", new { categoryN = "Action" }, null)</td></tr>
-                    <tr><td>@Html.ActionLink("Шутеры", "List", "Games", new { categoryN = "Shooter" })</td></tr>
-                    <tr><td>@Html.ActionLink("Приключения", "List", "Games", new { categoryN = "Adventure" })</td></tr>
-                    <tr><td>@Html.ActionLink("Ролевые", "List", "Games", new { categoryN = "RP" })</tr>
-                    <tr><td>@Html.ActionLink("Инди", "List", "Games", new { categoryN = "Indi" })</tr>
-                    <tr><td>@Html.ActionLink("Симуляторы", "List", "Games", new { categoryN = "Simulator" })</td></tr>
-                    <tr><td>@Html.ActionLink("Стратегии", "List", "Games", new { categoryN = "Strategy" })</td></tr>
-                    <tr><td>@Html.ActionLink("Аркады", "List", "Games", new { categoryN = "Arcade" })</td></tr>
-                    <tr><td>@Html.ActionLink("Спорт и Гонки", "List", "Games", new { categoryN = "Sport" })</td></tr>
-                    <tr><td>@Html.ActionLink("Казуальные", "List", "Games", new { categoryN = "Casual" })</td></tr>
-                    <tr><td>@Html.ActionLink("Хоррор", "List", "Games", new { categoryN = "Horror" })</td></tr>
-                    <tr><td>@Html.ActionLink("Выживание", "List", "Games", new { categoryN = "Survival" })</td></tr>
-                    <tr><td>@Html.ActionLink("Открытый мир", "List", "Games", new { categoryN = "OpenWorld" })</td></tr>
-                    <tr><td>@Html.ActionLink("С сюжетом", "List", "Games", new { categoryN = "Plot" })</td></tr>
+                    <tr><td>@Html.ActionLink("Экшн", "List", new { categoryN = "Action" })</td></tr>
+                    <tr><td>@Html.ActionLink("Шутеры", "List", new { categoryN = "Shooter" })</td></tr>
+                    <tr><td>@Html.ActionLink("Приключения", "List", new { categoryN = "Adventure" })</td></tr>
+                    <tr><td>@Html.ActionLink("Ролевые", "List", new { categoryN = "RP" })</tr>
+                    <tr><td>@Html.ActionLink("Инди", "List", new { categoryN = "Indi" })</tr>
+                    <tr><td>@Html.ActionLink("Симуляторы", "List",  new { categoryN = "Simulator" })</td></tr>
+                    <tr><td>@Html.ActionLink("Стратегии", "List",  new { categoryN = "Strategy" })</td></tr>
+                    <tr><td>@Html.ActionLink("Аркады", "List",  new { categoryN = "Arcade" })</td></tr>
+                    <tr><td>@Html.ActionLink("Спорт и Гонки", "List",  new { categoryN = "Sport" })</td></tr>
+                    <tr><td>@Html.ActionLink("Казуальные", "List",  new { categoryN = "Casual" })</td></tr>
+                    <tr><td>@Html.ActionLink("Хоррор", "List",  new { categoryN = "Horror" })</td></tr>
+                    <tr><td>@Html.ActionLink("Выживание", "List",  new { categoryN = "Survival" })</td></tr>
+                    <tr><td>@Html.ActionLink("Открытый мир", "List", new { categoryN = "OpenWorld" })</td></tr>
+                    <tr><td>@Html.ActionLink("С сюжетом", "List", new { categoryN = "Plot" })</td></tr>
                 </table>
             </div>
 
@@ -350,14 +354,14 @@
             <div class="razdel">
                 <table border="2px" cellpadding="3px" bordercolor="white" width="150px">
 
-                    <tr><td>@Html.ActionLink("Steam", "List", "Games", new { categoryN = "Steam" })</td></tr>
-                    <tr><td>@Html.ActionLink("Origin", "List", "Games", new { categoryN = "Origin" })</td></tr>
-                    <tr><td>@Html.ActionLink("UPlay", "List", "Games", new { categoryN = "UPlay" })</td></tr>
-                    <tr><td>@Html.ActionLink("Battle.net", "List", "Games", new { categoryN = "Battle.net" })</td></tr>
-                    <tr><td>@Html.ActionLink("Xbox", "List", "Games", new { categoryN = "Xbox" })</td></tr>
-                    <tr><td>@Html.ActionLink("Playstation", "List", "Games", new { categoryN = "Playstation" })</td></tr>
-                    <tr><td>@Html.ActionLink("MacOsX", "List", "Games", new { categoryN = "MacOsX" })</td></tr>
-                    <tr><td>@Html.ActionLink("Linux+SteamOS", "List", "Games", new { categoryN = "Linux+SteamOS" })</td></tr>
+                    <tr><td>@Html.ActionLink("Steam", "List", new { categoryN = "Steam" })</td></tr>
+                    <tr><td>@Html.ActionLink("Origin", "List", new { categoryN = "Origin" })</td></tr>
+                    <tr><td>@Html.ActionLink("UPlay", "List", new { categoryN = "UPlay" })</td></tr>
+                    <tr><td>@Html.ActionLink("Battle.net", "List", new { categoryN = "Battle.net" })</td></tr>
+                    <tr><td>@Html.ActionLink("Xbox", "List", new { categoryN = "Xbox" })</td></tr>
+                    <tr><td>@Html.ActionLink("Playstation", "List", new { categoryN = "Playstation" })</td></tr>
+                    <tr><td>@Html.ActionLink("MacOsX", "List", new { categoryN = "MacOsX" })</td></tr>
+                    <tr><td>@Html.ActionLink("Linux+SteamOS", "List", new { categoryN = "Linux+SteamOS" })</td></tr>
 
                 </table>
             </div>
@@ -381,7 +385,7 @@
                 {
                     Html.RenderPartial("Items", game);
                 }
-                    </div>
+            </div>
         </section>
 
 

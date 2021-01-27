@@ -5,7 +5,15 @@ namespace GGS.Domain
 {
     public class Game
     {
-     
+        public Game(int iD, string name, string shortDesc, string description, int priceRub, string imageURL)
+        {
+            ID = iD;
+            Name = name;
+            ShortDesc = shortDesc;
+            Description = description;
+            PriceRub = priceRub;
+            ImageURL = imageURL;
+        }
 
         public int ID { get; protected set; }
 
