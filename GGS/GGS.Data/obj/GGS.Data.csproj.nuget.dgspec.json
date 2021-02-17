@@ -63,6 +63,26 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.0, )"
+            },
+            "Ninject": {
+              "target": "Package",
+              "version": "[3.3.4, )"
+            },
+            "System.Net.Security": {
+              "target": "Package",
+              "version": "[4.3.2, )"
+            },
+            "System.Security.Cryptography.Xml": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -120,6 +140,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.1, )"
@@ -139,6 +163,26 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.0, )"
+            },
+            "Ninject": {
+              "target": "Package",
+              "version": "[3.3.4, )"
+            },
+            "System.Net.Security": {
+              "target": "Package",
+              "version": "[4.3.2, )"
+            },
+            "System.Security.Cryptography.Xml": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [

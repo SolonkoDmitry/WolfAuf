@@ -1,9 +1,15 @@
 ﻿using GGS.Domain;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Collections.Generic;
 
 namespace GGS.Data
 {
+    public interface IGameRepository
+    {
+        IEnumerable<Game> Games { get; }
+    }
+
     public class MyAppContext : DbContext
     {
         public DbSet<Game> Games { get; set; }
@@ -12,7 +18,7 @@ namespace GGS.Data
 
         public DbSet<Section> Sections { get; set; }
 
-   
+
         public MyAppContext(DbContextOptions options) : base(options)
         {
         }
@@ -26,7 +32,7 @@ namespace GGS.Data
             base.OnModelCreating(modelBuilder);
 
 
-           
+
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -34,5 +40,23 @@ namespace GGS.Data
             base.OnConfiguring(optionsBuilder);
             // optionsBuilder.UseLoggerFactory(ConsoleLoggerFactory);
         }
+
+
+    }
+
+    public class EFGameRepository : IGameRepository
+    {
+        public MyAppContext context = new MyAppContext();
+
+        public IEnumerable<Game> Games
+        {
+            get { return context.Games; }
+        }
+
+
+
+
+
     }
 }
+

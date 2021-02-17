@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using Microsoft.VisualStudio.Web.CodeGeneration.Design;
+using System.ComponentModel.DataAnnotations;
+using System.Web.Mvc;
 
 namespace GGS.Domain
 {
@@ -15,20 +18,26 @@ namespace GGS.Domain
             ImageURL = imageURL;
         }
 
-        public int ID { get; protected set; }
+        [HiddenInput(DisplayValue = false)]
+        public int ID { get;  set; }
 
-        public string Name { get; protected set; }
+        [Display(Name = "Название")]
+        public string Name { get;  set; }
 
-        public string ShortDesc { get; protected set; }
+        [Display(Name = "Краткое описание")]
+        public string ShortDesc { get;  set; }
 
-        public string Description { get; protected set; }
+        [Display(Name = "Полное описание")]
+        public string Description { get;  set; }
 
-        public int PriceRub { get; protected set; }
+        [Display(Name = "Цена (руб)")]
+        public int PriceRub { get;  set; }
 
-        public string ImageURL { get; protected set; }
+        [Display(Name = "Ссылка на исходное изображение")]
+        public string ImageURL { get;  set; }
 
-        public IList<Category> Categories { get; protected set; }
+        public IList<Category> Categories { get;  set; }
 
-        public IList<Section> Sections { get; protected set; }
+        public IList<Section> Sections { get;  set; }
     }
 }

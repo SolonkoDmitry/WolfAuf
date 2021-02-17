@@ -40,6 +40,10 @@ namespace GGS.Web.Controllers
             return View();
         }
 
+        public IActionResult Admin()
+        {
+            return View();
+        }
 
         public IActionResult Main(string categoryN)
         {

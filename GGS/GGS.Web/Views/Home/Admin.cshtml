@@ -1,0 +1,75 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .Login {
+            border: 2px groove black;
+            width: 600px;
+            height: 600px;
+            position: absolute;
+            top: 20%;
+            left: 35%;
+            background-image: url("../Images/background.png");
+        }
+
+        .Zagolovok {
+            text-align: center;
+            border-bottom: 2px groove whitesmoke;
+        }
+
+        .Enter {
+            position: absolute;
+            top: 35%;
+            left: 35%;
+        }
+
+        .otpravit, .login1 {
+            background-color: azure;
+        }
+
+        .login2 {
+            position: absolute;
+            left: 33%;
+        }
+
+        span {
+            color: whitesmoke
+        }
+        .Enter .submit {
+            text-decoration:none;
+            color:black;
+            border:solid 3px yellow;
+            background:white;
+            position:relative;
+            margin-left:50px;
+            width:80px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta rel="stylesheet" href="MainPage.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginPage</title>
+    <link rel="icon" href="3Variant_3.ico">
+</head>
+<body>
+    <div class="Login">
+        <div class="Zagolovok"><h1><span>Вход</span></h1></div>
+        <form method="post" action="">
+            <div class="Enter">
+                <p><input type="password" placeholder="Введите пароль...." name="Login" class="login1"> </p>
+                <div class="submit">@Html.ActionLink("Отправить", "GamesList", "Admin")</div>
+            </div>
+        </form>
+
+
+
+
+
+    </div>
+
+
+</body>
+</html>

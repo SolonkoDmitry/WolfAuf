@@ -12,6 +12,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.VisualStudio.Web.CodeGeneration.Design;
 
 namespace GGS.Web
 {
@@ -50,6 +51,7 @@ namespace GGS.Web
             app.UseStaticFiles();
 
             app.UseRouting();
+            app.UseAuthentication();
 
             app.UseAuthorization();
 
@@ -57,6 +59,7 @@ namespace GGS.Web
             {
                 routes.MapRoute(name: "default", template: "{controller=Home}/{action=Main}/{id?}");
                 routes.MapRoute(name: "CategoryFilter", template: "{controller=Games}/{action}/{categoryN?}");
+
             });
 
             app.UseEndpoints(endpoints =>
