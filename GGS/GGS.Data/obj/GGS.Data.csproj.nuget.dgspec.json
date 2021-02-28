@@ -1,35 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\almaz\\Desktop\\NN@\\WolfAuf\\GGS\\GGS.Data\\GGS.Data.csproj": {}
+    "C:\\Users\\almaz\\Desktop\\EE\\GGS\\GGS.Data\\GGS.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\almaz\\Desktop\\NN@\\WolfAuf\\GGS\\GGS.Data\\GGS.Data.csproj": {
+    "C:\\Users\\almaz\\Desktop\\EE\\GGS\\GGS.Data\\GGS.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\almaz\\Desktop\\NN@\\WolfAuf\\GGS\\GGS.Data\\GGS.Data.csproj",
+        "projectUniqueName": "C:\\Users\\almaz\\Desktop\\EE\\GGS\\GGS.Data\\GGS.Data.csproj",
         "projectName": "GGS.Data",
-        "projectPath": "C:\\Users\\almaz\\Desktop\\NN@\\WolfAuf\\GGS\\GGS.Data\\GGS.Data.csproj",
+        "projectPath": "C:\\Users\\almaz\\Desktop\\EE\\GGS\\GGS.Data\\GGS.Data.csproj",
         "packagesPath": "C:\\Users\\almaz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\almaz\\Desktop\\NN@\\WolfAuf\\GGS\\GGS.Data\\obj\\",
+        "outputPath": "C:\\Users\\almaz\\Desktop\\EE\\GGS\\GGS.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\almaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\almaz\\Desktop\\NN@\\WolfAuf\\GGS\\GGS.Domain\\GGS.Domain.csproj": {
-                "projectPath": "C:\\Users\\almaz\\Desktop\\NN@\\WolfAuf\\GGS\\GGS.Domain\\GGS.Domain.csproj"
+              "C:\\Users\\almaz\\Desktop\\EE\\GGS\\GGS.Domain\\GGS.Domain.csproj": {
+                "projectPath": "C:\\Users\\almaz\\Desktop\\EE\\GGS\\GGS.Domain\\GGS.Domain.csproj"
               }
             }
           }
@@ -41,48 +41,18 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.1, )"
+              "version": "[5.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.1, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[5.0.1, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[5.0.1, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[5.0.1, )"
-            },
-            "Moq": {
-              "target": "Package",
-              "version": "[4.16.0, )"
-            },
-            "Ninject": {
-              "target": "Package",
-              "version": "[3.3.4, )"
-            },
-            "System.Net.Security": {
-              "target": "Package",
-              "version": "[4.3.2, )"
-            },
-            "System.Security.Cryptography.Xml": {
-              "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.3, )"
             }
           },
           "imports": [
@@ -100,33 +70,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.8.20417.9\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\almaz\\Desktop\\NN@\\WolfAuf\\GGS\\GGS.Domain\\GGS.Domain.csproj": {
+    "C:\\Users\\almaz\\Desktop\\EE\\GGS\\GGS.Domain\\GGS.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\almaz\\Desktop\\NN@\\WolfAuf\\GGS\\GGS.Domain\\GGS.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\almaz\\Desktop\\EE\\GGS\\GGS.Domain\\GGS.Domain.csproj",
         "projectName": "GGS.Domain",
-        "projectPath": "C:\\Users\\almaz\\Desktop\\NN@\\WolfAuf\\GGS\\GGS.Domain\\GGS.Domain.csproj",
+        "projectPath": "C:\\Users\\almaz\\Desktop\\EE\\GGS\\GGS.Domain\\GGS.Domain.csproj",
         "packagesPath": "C:\\Users\\almaz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\almaz\\Desktop\\NN@\\WolfAuf\\GGS\\GGS.Domain\\obj\\",
+        "outputPath": "C:\\Users\\almaz\\Desktop\\EE\\GGS\\GGS.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\almaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -137,8 +107,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNet.Mvc": {
               "target": "Package",
@@ -146,43 +116,13 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.1, )"
+              "version": "[5.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.1, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[5.0.1, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[5.0.1, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[5.0.1, )"
-            },
-            "Moq": {
-              "target": "Package",
-              "version": "[4.16.0, )"
-            },
-            "Ninject": {
-              "target": "Package",
-              "version": "[3.3.4, )"
-            },
-            "System.Net.Security": {
-              "target": "Package",
-              "version": "[4.3.2, )"
-            },
-            "System.Security.Cryptography.Xml": {
-              "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.3, )"
             }
           },
           "imports": [
@@ -200,7 +140,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.8.20417.9\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
