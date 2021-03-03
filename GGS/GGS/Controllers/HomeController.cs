@@ -82,6 +82,11 @@ namespace GGS.Controllers
                 .FirstOrDefault(x => x.ID == gameId);
             return View(game);
         }
+        public ViewResult ShopCart()
+        {
+
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

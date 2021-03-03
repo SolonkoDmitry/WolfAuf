@@ -1,13 +1,12 @@
-﻿@{
-  
-    Layout = "~/Views/Shared/_MainLayout.cshtml";
-}
-@model GGS.Domain.Game
+﻿
+@model IEnumerable<GGS.Domain.Game>
 @using Microsoft.AspNetCore.Identity
 @inject SignInManager<IdentityUser> SignInManager
 @inject UserManager<IdentityUser> UserManager
 @using GGS.Domain
-
+@{
+    Layout = null;
+}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +14,7 @@
 
 
         body {
-            background-image: url('/Images/bacground-image.jpg');
+            background-image: url('../Images/bacground-image.jpg');
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover; /*Бэкграунд одного размера независимо от масштаба*/
@@ -226,7 +225,7 @@
 
         .MenuGames {
             border: 2px solid lightgray;
-            width: 800px;
+            width: 900px;
             height: 600px;
             position: absolute;
             top: 85%;
@@ -236,16 +235,16 @@
 
         .InfoGames {
             width: 400px;
-            height: 400px;
+            height: 450px;
         }
 
         .NameOfGame {
             color: red;
             font-weight: 700;
-            font-size: 30px;
-            position: absolute;
-            left: -420px;
-            top: -165px;
+            font-size: medium;
+            position: relative;
+            left: 450px;
+            top: -175px;
         }
 
         .PriceOfGame {
@@ -264,41 +263,37 @@
             position: relative;
             left: 450px;
             top: -165px;
-            word-wrap: break-word;
         }
 
-        .panel {
+        .ImageGame {
             position: relative;
-            top: 300px;
-            left: 400px;
-            width: 600px;
-            height: 600px;
-            color: red;
+            left: 50px;
         }
 
-        .Description {
-            word-wrap: break-word;
-            white-space: pre-wrap;
-        }
-
-        .Buy {
-            text-decoration: none;
-            font-size: 40px;
-            border: 2px solid lightgray;
-        }
-
-        .panel a {
-            position: absolute;
-            margin-left: 900px;
-            margin-top: 200px;
-            color: white;
-        }
         .dought {
             color: white;
         }
 
         .HelloUser {
             color: white;
+        }
+        .for_basket {
+            border: double 4px rgba(255,229,31,0.8);
+            width: 1000px;
+            height: 500px;
+            margin: 120px;
+            margin-top:200px;
+            margin-left:400px;
+        }
+
+        .button_buy {
+            color: rgba(255,229,31,1);
+            text-decoration: none;
+            font-size: 40px;
+            margin-bottom: 200px;
+            margin-left: 800px;
+            border: groove 4px black;
+            background-color: white;
         }
     </style>
     <meta charset="UTF-8">
@@ -342,7 +337,6 @@
                     {
                         <a asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage"><span class="menubar1"> Личный кабинет  </span></a>
                     }
-                    <a href="/Home/ShopCart"><span class="menubar2"> Корзина</span></a>
                 </div>
 
 
@@ -350,45 +344,17 @@
 
         </nav>
 
-        <nav>
-            <form method="post" action="">
-                <div class="mainmenubar">
-                    <a href="/Home/Main"><span class="mainmenubar1	">  Главная  </span></a>
-                    <span class="mainmenubar1	">@Html.ActionLink("Новинки", "List", "Games", new { categoryN = "New" }, null)</span>
-                    <span class="mainmenubar1	"> @Html.ActionLink("Предзаказ", "List", "Games", new { categoryN = "PreOrder" }, null) </span>
-                    <span class="mainmenubar1	">@Html.ActionLink(" Скидки", "List", "Games", new { categoryN = "Sale" }, null)  </span>
-
-                </div>
-
-            </form>
-
-        </nav>
 
     </header>
 
     <article>
 
 
-        <div class="panel">
-
-            <a class="Buy" href="#">Купить</a>
-            <p class="ImageGame"><img src="@Model.ImageURL" alt="Alt text " width="300" height="400"><p>
-                <h1 class="NameOfGame">
-                    @Html.ActionLink(Model.Name, "ShopPage", new { Model.ID })
-                </h1>
-                <h1 class="DescriptionOfGame">
-                    <span class="Description">@Model.Description</span>
-                </h1>
-
-                <h1 class="PriceOfGame">@Model.PriceRub</h1>
-
-
-
-        </div>
-
     </article>
 
-
+    <div class="for_basket">
+        <a href="" class="button_buy">КУПИТЬ</a>
+    </div>
     <div class="footer"><footer> Team WOLFAUF</footer></div>
 </body>
 </html>

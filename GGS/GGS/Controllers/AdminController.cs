@@ -6,6 +6,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Session;
+using Microsoft.AspNetCore.Identity;
 
 namespace GGS.Web.Controllers
 {
@@ -15,24 +17,38 @@ namespace GGS.Web.Controllers
 
         private readonly ILogger<AdminController> _logger;
         private readonly ApplicationDbContext _context;
+        private readonly UserManager<IdentityUser> _userManager;
+        private readonly SignInManager<IdentityUser> _signInManager;
+        private readonly RoleManager<IdentityRole> _roleManager;
 
-        public AdminController(ILogger<AdminController> logger, ApplicationDbContext context)
+        public AdminController(ILogger<AdminController> logger, ApplicationDbContext context, UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager, RoleManager<IdentityRole> roleManager)
         {
             _logger = logger;
             _context = context;
+            _userManager = userManager;
+            _signInManager = signInManager;
+            _roleManager = roleManager;
         }
 
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles ="admin")]
         [Route("Admin/Edit/{gameId}")]
-        public ViewResult Edit(int gameId)
+        public async Task<ViewResult> Edit(int gameId)
         {
+
+            var currentUser = HttpContext.User;
+
+            var userManagerUser = await _userManager.GetUserAsync(currentUser);
+
+            var roles = await _userManager.GetRolesAsync(userManagerUser);
+
+            var xrole =  _roleManager.Roles.ToList();
             var game = _context.Games
                 .FirstOrDefault(x => x.ID == gameId);
             return View(game);
         }
 
 
-        [Authorize]
+        [Authorize(Roles = "admin")]
         [Route("Admin")]
         public IActionResult GamesList()
         {
