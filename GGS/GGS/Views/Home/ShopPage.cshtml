@@ -342,7 +342,7 @@
                     {
                         <a asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage"><span class="menubar1"> Личный кабинет  </span></a>
                     }
-                    <a href="/Home/ShopCart"><span class="menubar2"> Корзина</span></a>
+                <span class="menubar2"> @Html.ActionLink("Корзина", "Index", "Cart")</span>
                 </div>
 
 

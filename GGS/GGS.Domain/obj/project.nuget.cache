@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rQWcJcJ93NAcRM60g8CBoxVEgkSj6E75ZcuWvNgpz2xFnmL9V9euQfQ/d9yiYHa/M/3ShXwKd0unJLvK87zB1g==",
+  "dgSpecHash": "pNpkHFcJOQL9JV1pm5OOZjq/+8OJf5yK97Pbme5Q2pye9i6MS1aLYhaaGovGR7oiu/tYuKc/o4n08tklI/GKxw==",
   "success": true,
   "projectFilePath": "C:\\Users\\almaz\\Desktop\\WEB\\WolfAuf\\GGS\\GGS.Domain\\GGS.Domain.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,8 @@
     "C:\\Users\\almaz\\.nuget\\packages\\microsoft.aspnet.webpages\\3.2.7\\microsoft.aspnet.webpages.3.2.7.nupkg.sha512",
     "C:\\Users\\almaz\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.3\\microsoft.aspnetcore.cryptography.internal.5.0.3.nupkg.sha512",
     "C:\\Users\\almaz\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.3\\microsoft.aspnetcore.cryptography.keyderivation.5.0.3.nupkg.sha512",
+    "C:\\Users\\almaz\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\almaz\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.4\\microsoft.aspnetcore.http.features.5.0.4.nupkg.sha512",
     "C:\\Users\\almaz\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\5.0.3\\microsoft.aspnetcore.identity.entityframeworkcore.5.0.3.nupkg.sha512",
     "C:\\Users\\almaz\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\almaz\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.3\\microsoft.entityframeworkcore.5.0.3.nupkg.sha512",
@@ -32,7 +34,9 @@
     "C:\\Users\\almaz\\.nuget\\packages\\microsoft.web.infrastructure\\1.0.0\\microsoft.web.infrastructure.1.0.0.nupkg.sha512",
     "C:\\Users\\almaz\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\almaz\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
-    "C:\\Users\\almaz\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
+    "C:\\Users\\almaz\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
+    "C:\\Users\\almaz\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
+    "C:\\Users\\almaz\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
   ],
   "logs": [
     {

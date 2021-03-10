@@ -274,6 +274,9 @@
         .HelloUser {
             color: white;
         }
+        .btnR{
+            position:relative;
+        }
 
     </style>
     <meta charset="UTF-8">
@@ -317,7 +320,7 @@
                     {
                         <a asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage"><span class="menubar1"> Личный кабинет  </span></a>
                     }
-                    <a href="/Home/ShopCart" ><span class="menubar2"> Корзина</span></a>
+                <span class="menubar2"> @Html.ActionLink("Корзина", "Index", "Cart")</span>
                             </div>
 
 
@@ -414,10 +417,18 @@
                                 <td>@Html.ActionLink(game.Name, "ShopPage", new { game.ID })</td>
                                 <h1 class="DescriptionOfGame">
                                     @game.ShortDesc<h1 />
-
                                     <h1 class="PriceOfGame">@game.PriceRub</h1>
+
+                                    @using (Html.BeginForm("AddToCart", "Cart"))
+                                      {
+                                    <div class="PriceOfGame">
+                                        @Html.Hidden("GameId", game.ID)
+                                        <!-- Html.Hidden("returnUrl", HttpContext.Request.Url.PathAndQuery)-->
+                                        <input type="submit" class="menubar2" value="Добавить в корзину" />
+                                    </div>
+                                       }
                                     <hr />
-                    </div>
+</div>
                 }
             </div>
         </section>
